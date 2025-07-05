@@ -1,0 +1,33 @@
+{
+  "name": "juce-webview",
+  "version": "8.0.8",
+  "description": "JUCE framework WebView components",
+  "author": "Hwanhee Kim <kimhappyofficial@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "juce",
+    "audio",
+    "plugin",
+    "webview"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimhappy/juce-webview.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bun run postinstall.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bun-types": "^1.2.17"
+  },
+  "files": [
+    "postinstall.ts",
+    "index.js.template"
+  ],
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
